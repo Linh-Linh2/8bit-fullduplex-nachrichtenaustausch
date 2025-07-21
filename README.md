@@ -2,7 +2,7 @@
 
 ## Aufgabenstellung
 
-Ziel dieses Projekts ist die Implementierung einer voll-duplexfähigen 8-Bit-Nachrichtenübertragung über Kabel zwischen zwei Systemen. Die Kommunikation erfolgt paketbasiert, wobei jedes Zeichen in zwei 4-Bit-Pakete aufgeteilt und mit Start-/End-Bits sowie Escaping übertragen wird. Zur Fehlererkennung wird eine CRC8-Prüfsumme verwendet. Das Projekt enstand im Rahmen des Modul 'Hardwarepraktikum' als Gruppenarbeit zweier Bachelorstudenten.
+Ziel dieses Projekts war die Implementierung einer voll-duplexfähigen 8-Bit-Nachrichtenübertragung über Kabel zwischen zwei Systemen. Die Kommunikation erfolgt paketbasiert, wobei jedes Zeichen in zwei 4-Bit-Pakete aufgeteilt und mit Start-/End-Bits sowie Escape-Bits übertragen wird. Zur Fehlererkennung wird eine CRC8-Prüfsumme verwendet. Das Projekt enstand im Rahmen des Moduls 'Hardwarepraktikum' als Gruppenarbeit zweier Bachelorstudenten.
 
 ## Funktionsweise
 
@@ -30,5 +30,5 @@ Ziel dieses Projekts ist die Implementierung einer voll-duplexfähigen 8-Bit-Nac
 - Das Protokoll unterstützt Escaping für Steuerzeichen und spezielle Bitmuster.
 
 ## Autoren
-- Max
-- L. P.
+- M.
+- Thanh Pham
